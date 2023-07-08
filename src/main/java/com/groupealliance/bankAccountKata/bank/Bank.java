@@ -16,6 +16,7 @@ import com.groupealliance.bankAccountKata.bank.transaction.TransactionImp;
 public class Bank {
 
 	private final String bankName;
+
 	private List<Client> clients = new ArrayList<Client>();
 
 	private TransactionImp transaction = new TransactionImp();
